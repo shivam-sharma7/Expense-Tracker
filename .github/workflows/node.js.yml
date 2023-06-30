@@ -10,8 +10,8 @@ jobs:
   build:
     strategy:
      matrix:
-      os: [ubuntu-latest, windows-letest]
-      version: [14, 16, 18]
+      os: [ubuntu-latest]
+      version: [18.x]
     runs-on: ${{matrix.os}} 
  
     steps:
