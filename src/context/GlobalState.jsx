@@ -4,31 +4,7 @@ import AppReducer from './AppReducer'
 
 // initial state
 const initialState = {
-    transactions: [
-        {
-            id: 1,
-            text: 'Flower',
-            amount: -20
-        },
-
-        {
-            id: 2,
-            text: 'Salary',
-            amount: 300
-        },
-
-        {
-            id: 3,
-            text: 'Book',
-            amount: -10
-        },
-
-        {
-            id: 4,
-            text: 'Camera',
-            amount: 150
-        }
-    ]
+    transactions: []
 
 }
 
@@ -39,7 +15,7 @@ export const GlobalContext = createContext(initialState)
 export const GlobalProvider = ({ children }) =>{
  const [state, dispatch] = useReducer(AppReducer, initialState);
 
- // Action
+ // Action to delete transaction
   const deleteTransaction = (id) =>{
     dispatch({
         type: 'DELETE_TRANSACTION',
@@ -47,11 +23,20 @@ export const GlobalProvider = ({ children }) =>{
     })
   }
 
+  // Action to Add transaction
+  const addTransaction = (transactions) =>{
+    dispatch({
+        type: 'ADD_TRANSACTION',
+        payload: transactions
+    })
+  }
+
  return (
 
  <GlobalContext.Provider value={{
     transactions: state.transactions,
-    deleteTransaction
+    deleteTransaction,
+    addTransaction
 }}>
     
     {children}</GlobalContext.Provider>
