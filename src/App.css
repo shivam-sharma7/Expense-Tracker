@@ -12,6 +12,9 @@
 
 body {
   background-color: #f7f7f7;
+  background: url(/public/bg.png);
+  background-size: cover;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,7 +36,7 @@ h1 {
 }
 
 h2 {
-  margin: 4rem;
+  margin: 3rem;
   color: rgb(139, 54, 200);
   font-family: cursive;
 }
@@ -85,6 +88,7 @@ h4 {
 label {
   display: inline-block;
   margin: 10px 0;
+  color: #fff;
 }
 
 input[type='text'],
@@ -99,7 +103,7 @@ input[type='number'] {
 
 .btn {
   cursor: pointer;
-  background-color: #7d65f6;
+  background-color: #e98a1d;
   box-shadow: var(--box-shadow);
   color: #fff;
   border: 0;
