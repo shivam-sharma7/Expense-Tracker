@@ -1,5 +1,16 @@
 ## Expense-Tracker
- This System divides the Income based on daily expenses
+ This System divides the Income based on daily expenses.
+
+ ## How to use?
+ If you want to use this then you need to add current balance in your account and then you can start adding new transaction. Transaction can be in negative or positive number where negative represent `expense` and positive `income`. Thanks 🙏
+
+ ## Example Data
+ * Recived salary = 50000
+ * bought phone = -10000
+ * bought watch = -1000
+ * eat a burger = -500
+ 
+ Total expense = 11500, Current Balance = 38500 and Total income = 50000
  
 ## Tech stack used
 
@@ -34,8 +45,8 @@ npm start
 
 <br />
  
-![image](https://github.com/shivam-sharma7/Expense-Tracker/assets/91419219/ddf2049e-d59b-40c7-a206-fc31d667c14e)
+ ![Alt text](image.png)
 
 ## 🧑‍💻 Contributing
-* Contributions to Horreum Please check our [CONTRIBUTING.md](./CONTRIBUTING.md)
+* Contributions to expense tracker, Please check our [CONTRIBUTING.md](./CONTRIBUTING.md)
 * Contribution is the best way to support and get involved in community !

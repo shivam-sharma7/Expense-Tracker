@@ -11,7 +11,7 @@
 }
 
 body {
-  background: url(/public/bg.png);
+  background: url(/bg.png);
   background-size: cover;
 
   display: flex;
@@ -129,7 +129,7 @@ input[type='number'] {
 .list li {
   background-color: #fff;
   box-shadow: var(--box-shadow);
-  color: #333;
+  color: #1b1a1a;
   display: flex;
   justify-content: space-between;
   position: relative;
