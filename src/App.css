@@ -165,6 +165,22 @@ input[type='number'] {
   opacity: 1;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  font-weight: bold;
+  color: #d1cece;
+  
+}
+
+.repo{
+   text-decoration: none;
+   color: #34a5d2;
+   letter-spacing: 2px;
+}
+
 @media (max-width: 320px) {
   .container {
     width: 300px;
