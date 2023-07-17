@@ -113,6 +113,15 @@ input[type='number'] {
   margin: 10px 0 30px;
   padding: 10px;
   width: 100%;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #e98a1d;
+  transition: all 0.3s;
+}
+.btn:hover{
+  background-color: transparent;
+  border: 2px solid #e98a1d;
+  color: #e98a1d;
 }
 
 .btn:focus,
