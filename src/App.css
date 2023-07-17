@@ -113,7 +113,32 @@ input[type='number'] {
   margin: 10px 0 30px;
   padding: 10px;
   width: 100%;
+  transition: all 0.5s  cubic-bezier(0.420, 0.000, 0.580, 1.000);
 }
+
+
+
+
+.btn:after{
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  mix-blend-mode: lighten;
+  background: #eb8201;
+  transition: all 0.5s  cubic-bezier(0.420, 0.000, 0.580, 1.000);;
+}
+
+.btn:hover{
+    background:  #f52525;
+  }
+  
+.btn:hover:after{
+    width: 100%;
+    height: 100%;
+  }
+
+
 
 .btn:focus,
 .delete-btn:focus {
