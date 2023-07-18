@@ -10,7 +10,7 @@
  * bought watch = -1000
  * eat a burger = -500
  
- Total expense = 11500, Current Balance = 38500 and Total income = 50000
+ Total income = 50000, Total expense = 11500 and Current Balance = 38500
  
 ## Tech stack used
 
