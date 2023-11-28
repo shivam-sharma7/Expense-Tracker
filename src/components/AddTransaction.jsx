@@ -31,7 +31,7 @@ import { GlobalContext } from "../context/GlobalState"
           <input type="text" value={text} onChange={(e) => setText(e.target.value)} placeholder="Enter text..." required />
         </div>
         <div className="form-control">
-          <label htmlFor="amount">Amount <br />(type (-) for expenses, like (-100))</label>
+          <label htmlFor="amount">Amount <br />(type - before adding negative amount)</label>
           <input type="number" value={amount} onChange={(e) => setAmount(e.target.value)} placeholder="Enter amount..." required />
         </div>
         <button className="btn">Add transaction</button>
