@@ -11,7 +11,7 @@
 }
 
 body {
-  background: url(/bg.png);
+  background-color: #232424 ;
   background-size: cover;
 
   display: flex;
