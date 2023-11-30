@@ -45,7 +45,7 @@ npm start
 
 <br />
  
- ![Alt text](image.png)
+![image](https://github.com/shivam-sharma7/Expense-Tracker/assets/91419219/9d4daa90-866e-477e-9811-8cc258f03657)
 
 ## 🧑‍💻 Contributing
 * Contributions to expense tracker, Please check our [CONTRIBUTING.md](./CONTRIBUTING.md)
