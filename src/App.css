@@ -190,6 +190,12 @@ input[type='number'] {
   opacity: 1;
 }
 
+@media (max-width: 375px) {
+  .container {
+    width: 85%;
+  }
+}
+
 @media (max-width: 320px) {
   .container {
     width: 300px;
